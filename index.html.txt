@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ãÔÑæÚ ÂáÇÊ ÇáÈíÚ ÇáĞÇÊí</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Tajawal", sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.8;
+    }
+    header {
+      background: linear-gradient(135deg, #0077b6, #00b4d8);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    footer {
+      background: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .contact {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 12px 25px;
+      background: #00b4d8;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #0077b6;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ÇáåíÏÑ -->
+  <header>
+    <h1>ãÔÑæÚ ÂáÇÊ ÇáÈíÚ ÇáĞÇÊí</h1>
+    <p>Íáæá ãÈÊßÑÉ áÊæİíÑ ÇáãäÊÌÇÊ ÈÓåæáÉ æİí Ãí æŞÊ</p>
+  </header>
+
+  <!-- äÈĞÉ ÊÚÑíİíÉ -->
+  <section>
+    <h2>ãä äÍä</h2>
+    <p>
+      äÍä äŞÏã ÃÍÏË ÊŞäíÇÊ ÂáÇÊ ÇáÈíÚ ÇáĞÇÊí¡ áäæİÑ ááÒÈÇÆä ÊÌÑÈÉ ÔÑÇÁ
+      ÓÑíÚÉ æãÑíÍÉ Úáì ãÏÇÑ ÇáÓÇÚÉ. ÂáÇÊäÇ ãÕããÉ áÊäÇÓÈ ÌãíÚ ÇáãæÇŞÚ ãËá
+      ÇáÌÇãÚÇÊ¡ ÇáãÓÊÔİíÇÊ¡ ÇáãæáÇÊ æÇáãßÇÊÈ.
+    </p>
+  </section>
+
+  <!-- ÇáããíÒÇÊ -->
+  <section>
+    <h2>ããíÒÇÊ ÇáãÔÑæÚ</h2>
+    <div class="features">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200.png?text=ÂáÉ+ÍÏíËÉ" alt="ÂáÉ ÈíÚ">
+        <h3>ÊŞäíÉ ÍÏíËÉ</h3>
+        <p>ÂáÇÊ ĞßíÉ ÈæÇÌåÇÊ ÓåáÉ ÇáÇÓÊÎÏÇã.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200.png?text=ÏİÚ+ÅáßÊÑæäí" alt="ÏİÚ ÅáßÊÑæäí">
+        <h3>æÓÇÆá ÏİÚ ãÊÚÏÏÉ</h3>
+        <p>äŞÈá ÇáÏİÚ ÇáäŞÏí æÇáÅáßÊÑæäí ÈÓåæáÉ.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200.png?text=ãäÊÌÇÊ+ãÊäæÚÉ" alt="ãäÊÌÇÊ ãÊäæÚÉ">
+        <h3>ãäÊÌÇÊ ãÊäæÚÉ</h3>
+        <p>ãÔÑæÈÇÊ¡ æÌÈÇÊ ÎİíİÉ¡ æÍÊì ãäÊÌÇÊ ÎÇÕÉ.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ÊæÇÕá -->
+  <section class="contact">
+    <h2>ÊæÇÕá ãÚäÇ</h2>
+    <p>ááÇÓÊİÓÇÑ Ãæ ØáÈ ÚÑÖ ÓÚÑ¡ ÊæÇÕá ãÚäÇ ÚÈÑ ÇáÈÑíÏ ÇáÅáßÊÑæäí:</p>
+    <a href="mailto:info@vending.com" class="btn">ÑÇÓáäÇ ÇáÂä</a>
+  </section>
+
+  <!-- ÇáİæÊÑ -->
+  <footer>
+    <p>© 2025 ãÔÑæÚ ÂáÇÊ ÇáÈíÚ ÇáĞÇÊí - ÌãíÚ ÇáÍŞæŞ ãÍİæÙÉ</p>
+  </footer>
+
+</body>
+</html>
